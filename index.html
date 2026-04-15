@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>沐嶼 | 產品介紹</title>
+
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to bottom, #f4f6f5, #e8efe9);
+        }
+
+        header {
+            background-color: #2f5d50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        .banner {
+            background-image: url("https://images.unsplash.com/photo-1501004318641-b39e6451bec6");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .banner h2 {
+            background-color: rgba(0,0,0,0.4);
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-size: 28px;
+        }
+
+        main {
+            padding: 30px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #2f5d50;
+            border-left: 6px solid #2f5d50;
+            padding-left: 10px;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+            justify-content: center; /* 讓產品居中顯示 */
+        }
+
+        .product {
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            width: 250px; /* 稍微縮小寬度以容納四個產品 */
+            box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .product:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px; /* 固定高度讓畫面更整齊 */
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 10px;
+        }
+
+        .buy-btn {
+            background-color: #2f5d50;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        .buy-btn:hover {
+            background-color: #3f7d6c;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 14px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #2f5d50;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+
+        #contact {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
+
+        footer {
+            background-color: #2f5d50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>沐嶼 Mu-Yu</h1>
+    <nav>
+        <ul>
+            <li><a href="#products">產品介紹</a></li>
+            <li><a href="#prices">價格</a></li>
+            <li><a href="#contact">聯繫我們</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="banner">
+    <h2>天然木質香氛，回歸自然生活</h2>
+</section>
+
+<main>
+
+<section id="products">
+    <h2>產品介紹</h2>
+
+    <div class="product-container">
+
+        <div class="product">
+            <img src="肥照.jpg" alt="香杉舒緩植萃皂">
+            <h3>香杉舒緩植萃皂</h3>
+            <p>包裝採用再生紙，淡雅日常香味。</p>
+            <p>規格：100g</p>
+            <button class="buy-btn">立即購買</button>
+        </div>
+
+        <div class="product">
+            <img src="沐浴露.jpg" alt="沐浴露">
+            <h3>紅檜保濕沐浴露</h3>
+            <p>採用天然紅檜精華，深層滋潤肌膚。</p>
+            <p>容量：500ml</p>
+            <button class="buy-btn">立即購買</button>
+        </div>
+
+        <div class="product">
+            <img src="洗髮精.jpg" alt="洗髮精">
+            <h3>肖楠修護洗髮精</h3>
+            <p>有效修護受損髮質，恢復光澤。</p>
+            <p>容量：500ml</p>
+            <button class="buy-btn">立即購買</button>
+        </div>
+
+        <div class="product">
+            <img src="精油.jpg" alt="精油">
+            <h3>原木濃縮精油</h3>
+            <p>提升空間氛圍，打造舒適環境。</p>
+            <p>容量：30ml</p>
+            <button class="buy-btn">立即購買</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="prices">
+    <h2>價格表</h2>
+
+    <table>
+        <tr>
+            <th>產品名稱</th>
+            <th>價格</th>
+        </tr>
+        <tr>
+            <td>香杉舒緩植萃皂</td>
+            <td>NT$ 150</td>
+        </tr>
+        <tr>
+            <td>紅檜保濕沐浴露</td>
+            <td>NT$ 450</td>
+        </tr>
+        <tr>
+            <td>肖楠修護洗髮精</td>
+            <td>NT$ 450</td>
+        </tr>
+        <tr>
+            <td>原木濃縮精油</td>
+            <td>NT$ 600</td>
+        </tr>
+    </table>
+</section>
+
+<section id="contact">
+    <h2>聯繫我們</h2>
+    <p>電話：0912-345-678</p>
+    <p>Email：contact@mu-yu.com</p>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 沐嶼 版權所有</p>
+</footer>
+
+</body>
+</html>
